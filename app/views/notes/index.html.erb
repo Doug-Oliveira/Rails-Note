@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+<%= render partial: 'shared/navbar'%>
 
 <h1>Notes</h1>
 
@@ -25,6 +25,5 @@
 </table>
 
 <br>
-<%= link_to 'Sair', destroy_user_session_path, method: :delete%>
 
 <%= link_to 'New Note', new_note_path %>
